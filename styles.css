@@ -1,0 +1,30 @@
+.box{
+    background-color: dodgerblue;
+    padding: 10px;
+    margin: 5px;
+    width: 500px;
+    border-radius: 10px;
+    color: white;
+}
+.box h1,h4{
+    text-align: center;
+}
+
+.boxes{
+    display: grid;
+}
+
+/* 1920px */
+@media (max-width:1920px){
+    .boxes{
+        display: flex
+    }
+}
+/* 768px */
+@media (max-width:768px){
+    .boxes{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+/* 640px */
